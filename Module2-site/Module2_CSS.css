@@ -1,0 +1,134 @@
+		*{
+			box-sizing: border-box;
+			margin-top: 0;
+			margin-bottom:0;
+			font-family: Arial,Helvetica,sans-serif
+		}
+
+		h1{
+			margin-bottom: 50px;
+			margin-top: 30px;
+			text-align: center;
+		}
+
+		div div{
+
+			position:relative;
+
+		}
+
+/*------------------------------------------------------------------------large device------------------------------------------------------------------------------------- */
+
+		@media(min-width: 992px){
+
+			div{
+				width: 31%;
+				background-color:rgb(245,165,222);
+				border:1px solid black;
+				height:20%;
+				position:relative;
+				float: left;
+				margin: 1.1%;
+			}
+
+			p{
+				clear: both;
+				padding-left: 3px;
+				padding-bottom: 3px;
+				padding-right: 3px;
+				color: black;
+			}
+
+
+			h2{
+				float: right;
+				background-color:rgb(125,86,245);
+				border-left: 1px solid black;
+				border-bottom:  1px solid black;
+				margin-bottom: 8px;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 4px; 
+			}
+
+		}
+
+/*------------------------------------------------------------------------large device------------------------------------------------------------------------------------- */
+
+/*------------------------------------------------------------------------medium device------------------------------------------------------------------------------------- */
+
+		@media(min-width:768px ) and ( max-width: 991px){
+
+			div{
+				width: 49%;
+				background-color:rgb(245,165,222);
+				border:1px solid black;
+				height:20%;
+				position:relative;
+				float: left;
+				margin-right: 1%;
+				margin-bottom: 1%
+			}
+
+			.big{
+				width: 99%;
+				height: 125px;
+			}
+
+			p{
+				clear: both;
+				padding-left: 3px;
+				padding-bottom: 3px;
+				padding-right: 3px;
+				color: black;
+			}
+
+			h2{
+				float: right;
+				background-color:rgb(125,86,245);
+				border-left: 1px solid black;
+				border-bottom:  1px solid black;
+				margin-bottom: 8px;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 4px; 
+			}
+
+		}
+
+/*------------------------------------------------------------------------medium device------------------------------------------------------------------------------------- */
+
+/*------------------------------------------------------------------------Small device---------------------------------------------------------------------------------- */
+
+		@media(max-width:767px){
+			div{
+				width: 99%;
+				background-color:rgb(245,165,222);
+				border:1px solid black;
+				height:20%;
+				position:relative;
+				float: left;
+				margin-right: 1%;
+				margin-bottom: 1%
+			}
+
+			p{
+				clear: both;
+				padding-left: 3px;
+				padding-bottom: 3px;
+				padding-right: 3px;
+				color: black;
+			}
+
+			h2{
+				float: right;
+				background-color:rgb(125,86,245);
+				border-left: 1px solid black;
+				border-bottom:  1px solid black;
+				margin-bottom: 8px;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 4px; 
+			}
+
+		}
